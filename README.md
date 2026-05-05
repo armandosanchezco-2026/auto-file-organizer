@@ -40,4 +40,5 @@ Mixed project folders
 Automating repetitive file‑sorting tasks
 
 How It Works
+
 The script scans all files in the target folder, determines their category based on extension, creates the necessary subfolders, and moves each file accordingly. A log file is generated with all actions performed.
