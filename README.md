@@ -1,51 +1,56 @@
-Auto File Organizer
-Automatically organizes a folder full of files by sorting them into subfolders based on file type (images, videos, documents, audio, archives, etc.).
+# Auto File Organizer
 
-Usage
-bash
+A lightweight Python tool that automatically organizes a folder full of files by sorting them into subfolders based on file type (images, videos, documents, audio, archives, etc.). Ideal for keeping your Downloads folder clean and structured.
+
+## 🚀 Features
+- Automatically detects file types
+- Creates subfolders dynamically
+- Moves files safely without overwriting
+- Generates a detailed log of all operations
+- Works on Windows, macOS, and Linux
+- Simple and clean command‑line interface
+
+## 📦 Installation
+Clone the repository:
+
+git clone https://github.com/armandosanchezco-2026/auto-file-organizer.git
+cd auto-file-organizer
+
+No external dependencies are required — the script uses only Python’s standard library.
+
+## 🧭 Usage
+Run the script and pass the folder you want to organize:
+
 python organizer.py "C:/Users/YourUser/Downloads"
-Features
-Detects file types automatically
 
-Creates folders dynamically
+You can target any folder on your system.
 
-Moves files without overwriting
+## 📁 Example Output Structure
+After running the script, your folder may look like this:
 
-Generates a log with all operations
-
-Works on Windows, macOS and Linux
-
-Simple and clean CLI interface
-
-Example Output Structure
-Código
 Downloads/
-
+│
 ├── images/
-
 ├── videos/
-
 ├── documents/
-
 ├── audio/
-
 ├── archives/
-
 ├── others/
-
 └── organizer_log.txt
 
-Ideal For
-Cleaning messy Downloads folders
+## 🛠 How It Works
+1. The script scans all files in the target directory.
+2. It determines each file’s category based on its extension.
+3. It creates the necessary subfolders (if they don’t already exist).
+4. Files are moved into their corresponding category folders.
+5. A log file is generated with timestamps and actions performed.
 
-Organizing desktops
+## 📌 Ideal For
+- Cleaning messy Downloads folders
+- Organizing desktops
+- USB drives
+- Mixed project folders
+- Automating repetitive file‑sorting tasks
 
-USB drives
-
-Mixed project folders
-
-Automating repetitive file‑sorting tasks
-
-How It Works:
-
-The script scans all files in the target folder, determines their category based on extension, creates the necessary subfolders, and moves each file accordingly. A log file is generated with all actions performed.
+## 📄 License
+This project is released under the MIT License. You are free to use, modify, and distribute it.
