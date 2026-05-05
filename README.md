@@ -1,9 +1,43 @@
-# Auto File Organizer
+Auto File Organizer
+Automatically organizes a folder full of files by sorting them into subfolders based on file type (images, videos, documents, audio, archives, etc.).
 
-Organiza automáticamente una carpeta llena de archivos, clasificándolos por tipo
-(imágenes, vídeos, documentos, audio, etc.) en subcarpetas.
+Usage
+bash
+python organizer.py "C:/Users/YourUser/Downloads"
+Features
+Detects file types automatically
 
-## Uso
+Creates folders dynamically
 
-```bash
-python organizer.py "C:/Users/TuUsuario/Downloads"
+Moves files without overwriting
+
+Generates a log with all operations
+
+Works on Windows, macOS and Linux
+
+Simple and clean CLI interface
+
+Example Output Structure
+Código
+Downloads/
+│
+├── images/
+├── videos/
+├── documents/
+├── audio/
+├── archives/
+├── others/
+└── organizer_log.txt
+Ideal For
+Cleaning messy Downloads folders
+
+Organizing desktops
+
+USB drives
+
+Mixed project folders
+
+Automating repetitive file‑sorting tasks
+
+How It Works
+The script scans all files in the target folder, determines their category based on extension, creates the necessary subfolders, and moves each file accordingly. A log file is generated with all actions performed.
