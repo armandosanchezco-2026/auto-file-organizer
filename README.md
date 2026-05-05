@@ -28,15 +28,14 @@ You can target any folder on your system.
 ## 📁 Example Output Structure
 After running the script, your folder may look like this:
 
-Downloads/
-│
-├── images/
-├── videos/
-├── documents/
-├── audio/
-├── archives/
-├── others/
-└── organizer_log.txt
+Downloads/  
+├── images/  
+├── videos/  
+├── documents/  
+├── audio/  
+├── archives/  
+├── others/  
+└── organizer_log.txt  
 
 ## 🛠 How It Works
 1. The script scans all files in the target directory.
