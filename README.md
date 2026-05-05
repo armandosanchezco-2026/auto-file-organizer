@@ -20,14 +20,23 @@ Simple and clean CLI interface
 Example Output Structure
 Código
 Downloads/
+
 │
+
 ├── images/
+
 ├── videos/
+
 ├── documents/
+
 ├── audio/
+
 ├── archives/
+
 ├── others/
+
 └── organizer_log.txt
+
 Ideal For
 Cleaning messy Downloads folders
 
