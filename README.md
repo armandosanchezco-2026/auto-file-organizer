@@ -22,12 +22,19 @@ Código
 Downloads/
 
 │
+
 ├── images/
+
 ├── videos/
+
 ├── documents/
+
 ├── audio/
+
 ├── archives/
+
 ├── others/
+
 └── organizer_log.txt
 
 Ideal For
